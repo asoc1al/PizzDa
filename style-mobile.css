@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links a {
+    margin-bottom: 10px;
+  }
+
+  .socials {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .phone-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    max-width: calc(50% - 10px);
+  }
+
+  .forms-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftform input {
+    width: 100%;
+  }
+
+  .rightform textarea {
+    max-width: 420px;
+    width: 100%;
+  }
+  .card {
+    max-width: calc(50% - 10px);
+    width: 100%;
+    background-size: cover; /* Сохраняем соотношение сторон и обрезаем изображение, чтобы оно заполняло заданную область */
+    background-position: center; /* Центрируем изображение по горизонтали и вертикали */
+  }
+  .phone {
+    display: none;
+  }
+  .special:last-child{
+    display: none;
+  }
+  .special:first-child{
+    display: none;
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+  }
+  nav a{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+  }
+
+  .links {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .links a {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .cart-link {
+    order: 2;
+    margin-left: auto;
+  }
+  .leftform input {
+    max-width: 420px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #ccc; /* Граница для лучшей видимости */
+    padding: 5px 10px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта внутри полей ввода */
+    box-sizing: border-box; /* Для учета padding и border в общих размерах */
+  }
+
+  .submit-button{
+    padding: 5px 100px;
+  }
+}
